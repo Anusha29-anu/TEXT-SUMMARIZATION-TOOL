@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Summarization Tool - CODTECH</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Text Summarization Tool</h1>
+    </header>
+    <main>
+        <div class="container">
+            <section class="input-section">
+                <h2>Original Text</h2>
+
+                <div class="input-method">
+                    <label for="fileInput">Upload a .txt file:</label>
+                    <input type="file" id="fileInput" accept=".txt">
+                </div>
+
+                <p class="input-separator">OR</p>
+
+                <textarea id="originalText" placeholder="Paste your lengthy article here..."></textarea>
+                <button id="summarizeButton">Summarize Text</button>
+                <div id="loadingIndicator" style="display: none; margin-top: 10px; text-align: center; color: #555;">Processing...</div>
+            </section>
+
+            <section class="output-section">
+                <h2>Original Input (for reference)</h2>
+                <div id="displayedOriginalText" class="text-display">
+                    <p>Your original text will appear here once you click summarize.</p>
+                </div>
+
+                <h2>Summarized Output</h2>
+                <div id="summarizedText" class="text-display">
+                    <p>Your summary will appear here.</p>
+                </div>
+                <button id="copySummaryButton" class="utility-button" style="display: none;">Copy Summary</button>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <p>Note: This is a simplified client-side summarizer. For advanced NLP, server-side Python libraries like Transformers or Spacy are typically used.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
