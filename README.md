@@ -91,3 +91,5 @@ With the development of AI, especially deep learning, text analytics is changing
  Conclusion
 Text Analytics is a critical field of Artificial Intelligence that revolutionizes the way we engage with and process text information. Whether developing a chatbot, summarizing texts, spam detection, or social media trend analysis, text analytics gives the base to close the gap between human language and machine comprehension.
 
+![Image](https://github.com/user-attachments/assets/d35f3300-506f-4845-911f-f8f6c0953cb7)
+
